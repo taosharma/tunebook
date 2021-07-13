@@ -17,8 +17,8 @@
 
 <style>
 	section {
-		height: 60vh;
-		width: 25vw;
+		height: 70vh;
+		width: 35vw;
 		background-color: blue;
 	}
 </style>

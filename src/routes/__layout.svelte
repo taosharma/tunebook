@@ -5,13 +5,13 @@
 <main>
 	<Navigation />
 	<section class="tune-grid">
-		<div class="center-left container" />
-		<div class="center-right container" />
+		<div class="center-left button" />
+		<div class="center-top button" />
 		<div class="center">
 			<slot />
 		</div>
-		<div class="center-top container" />
-		<div class="center-bottom container" />
+		<div class="center-bottom button" />
+		<div class="center-right button" />
 	</section>
 </main>
 
@@ -26,8 +26,8 @@
 	}
 	.tune-grid {
 		display: grid;
-		grid-template-columns: 5vw 25vw 5vw;
-		grid-template-rows: 5vh 60vh 5vh;
+		grid-template-columns: 2.5em 35vw 2.5em;
+		grid-template-rows: 2.5em 70vh 2.5em;
 		align-items: center;
 		justify-items: center;
 		background-color: crimson;
@@ -53,7 +53,7 @@
 		grid-area: 2 / 2 / 2 / 2;
 	}
 
-	.container {
+	.button {
 		height: 0.5em;
 		width: 0.5em;
 		border: 0.1em solid black;
