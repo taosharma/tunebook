@@ -17,14 +17,8 @@
 
 <style>
 	section {
-		@apply container;
-		@apply w-80;
-		@apply text-red-500;
-	}
-
-	div {
-		@apply container;
-		@apply w-10;
-		@apply h-10;
+		height: 60vh;
+		width: 25vw;
+		background-color: blue;
 	}
 </style>

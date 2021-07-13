@@ -23,6 +23,7 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"git-cz": "^4.7.6",
 		"jest": "^27.0.6",
 		"svelte-dnd-action": "^0.9.9"
 	},
