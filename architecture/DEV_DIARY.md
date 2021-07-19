@@ -34,3 +34,4 @@
 - Transferred project to svelte-kit
 - Moved over previous code
 - Installed jest and configured with babel (see package.json and babel.config)
+- Started basic styling
